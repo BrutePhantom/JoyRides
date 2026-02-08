@@ -5,6 +5,11 @@ html{
 *{
     margin: 0px;
     padding: 0px;
+    color: white;
+}
+
+body{
+    background-color: black;
 }
 
 .enginecover{
@@ -18,6 +23,7 @@ html{
 .bg{
     width: 1512px;
     height: auto;
+    box-shadow: 4px 10px 40px rgb(61, 60, 60);
 }
 
 nav{
@@ -46,8 +52,16 @@ header>section{
     padding: 15px;
 }
 
-header>section>h1{
+.jr{
     color: white;
+    position: absolute;
+    left: 590px;
+    bottom: 60px;
+    font-size: 90px;
+    background-color: black;
+    filter:opacity(0.8);
+    padding: 15px;
+    border-radius: 4px;
 }
 
 .logo{
